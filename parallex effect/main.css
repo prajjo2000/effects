@@ -1,15 +1,60 @@
-.parallex{
-
-	background-image: url(https://cdn.wccftech.com/wp-content/uploads/2015/08/google-logo-black-1920-800x450.jpg);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+	margin: 0;
+	padding:0;
 }
 
-.pll1{
-	height: 400px;
-	background-color: blue;
-	
+.parallax {
+  /* The image used */
+  background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.78;
+}
+
+.text{
+	height:200px;
+	font-size:36px;
+	text-align: center;
+	padding-top: 80px;
+	background-color: #282E34;
+	color: white;
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.78;
+}
+
+
+.parallax2 {
+  /* The image used */
+  background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.78;
 }
