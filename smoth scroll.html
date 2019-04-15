@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>smooth scroll</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background: #333;
+			color: #fff;
+			line-height: 1.6;
+			height: 100vh;
+			font-family: Arial,Helvetica,sans-serif;
+
+
+			/* the below tag is used to remove the scroll */ 
+            overflow: hidden;
+
+		}
+
+		.container{
+			width: 100%;
+			height: 100%;
+
+
+			/*  css for smooth scroll */
+			overflow-y: scroll;
+			scroll-behavior: smooth;
+			/*  css for smooth scroll ends */
+			/* snap  */
+            scroll-snap-type: y mandatory;
+			/* snap ends*/
+		}
+
+		.navbar{
+			position: fixed;
+			top:0;
+			display: flex;
+			z-index: 1;
+			width: 100%;
+			height: 60px;
+			background: rgba(0,0,0,0.7);
+		}
+
+		.navbar ul{
+			display: flex;
+			width: 100%;
+			list-style: none;
+			justify-content: center;
+		}
+		.navbar ul li{
+			margin: 0 1rem;
+			padding: 1rem;
+		}
+		.navbar ul li a {
+			text-decoration: none;
+			text-transform: uppercase;
+			color: #f4f4f4;
+		}
+		.navbar ul li a:hover{
+			color: skyblue;
+		}
+		.section{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align:center;
+			width: 100%;
+			height: 100vh;
+			/* snap continues */
+			scroll-snap-align:center;
+			/* snap ends */
+		}
+
+	     h1{
+			font-size: 4rem;
+		}
+
+		p{
+			font-size: 1.5rem;
+		}
+
+		.section,#home{
+			background: url(https://source.unsplash.com/bZZp1PmHI0E/1600x900) no-repeat center center/cover ;
+		}
+
+
+		.section,#about{
+			background: url(https://source.unsplash.com/VRxo0yY-gyM/1600x900) no-repeat center center/cover ;
+		}
+
+
+		.section,#contact{
+			background: url(https://source.unsplash.com/K2tdx2mFDHc/1600x900) no-repeat center center/cover ;
+		}
+
+
+		.section,#service{
+			background: url(https://source.unsplash.com/2aAHlfDOhJM/1600x900) no-repeat center center/cover ;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<nav class="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li> 
+            <li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<div  class="section" id="home">
+	<h1>Welcome to my site</h1>
+		<p> hi people welcome here and u will enjoy this site </p>
+	</div>
+
+
+	<div class="section" id="about">
+	<h1>About</h1>
+		<p> hi people welcome here and u will enjoy this site </p>
+	</div>
+
+
+	<div class="section" id="service">
+	<h1>Service</h1>
+		<p> hi people welcome here and u will enjoy this site </p>
+	</div>
+
+
+	<div class="section" id="contact">
+	<h1>Contact</h1>
+		<p> hi people welcome here and u will enjoy this site </p>
+	</div>
+
+
+</div>
+</body>
+</html>

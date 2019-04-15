@@ -1,0 +1,15 @@
+.parallex{
+
+	background-image: url(https://cdn.wccftech.com/wp-content/uploads/2015/08/google-logo-black-1920-800x450.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pll1{
+	height: 400px;
+	background-color: blue;
+	
+}
