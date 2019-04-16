@@ -15,7 +15,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.78;
 }
 
 .text{
@@ -40,7 +39,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.78;
 }
 
 
@@ -56,5 +54,20 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.78;
+}
+
+.button{
+	position: absolute;
+	font-weight: bold;
+    border:none;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: white;
+	background-color: #282E34;
+    margin-top: 300px;
+    margin-left: 700px;
+    border-radius: 20px;
+    text-transform: uppercase;
 }
